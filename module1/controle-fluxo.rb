@@ -47,7 +47,7 @@ puts "-----------------------------\n\n"
 puts "Exemplo de codigo inline"
 
 vezes_2 = 2
-veszes_2 *= 2 while vezes_2 <
+vezes_2 *= 2 while vezes_2 <
  100
 puts "Valor fora do loop é #{vezes_2}"
 puts "Imprima somente se o valor for 128" if vezes_2 == 128
