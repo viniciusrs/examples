@@ -20,7 +20,7 @@ exemplo2(0)
 exemplo2(3)
 puts "-----------------------------\n\n"
 
-puts "Methodos expressivos"
+puts "metodos expressivos"
 
 puts "Para dizer que o metodo retorna um boolean voce pode usar ? na declaracao do metodo"
 
@@ -56,7 +56,7 @@ def splat(parm1, parm2, *params)
   return params
 end
 
-puts "Os primeiros parametros são obrigatorios se tentar executar o methodo\nsem passa-los ira gerar um erro"
+puts "Os primeiros parametros são obrigatorios se tentar executar o metodo\nsem passa-los ira gerar um erro"
 puts "'wrong number of arguments (given 0, expected 2+)'"
 puts "Exemplo deixando o splat vazio o resultado é: #{splat(1,2)}"
 puts "Exemplo passando alguns parametros #{splat(1,2,3,4,5)}"
